@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-9,
+				100
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Fatal LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				40
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Fatal DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Fatal UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Fatal RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Fatal IDLE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fatal/Fatal1",
+	"position": [
+		0,
+		-360
+	],
+	"healthicon": "dad",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		0,
+		90
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Fatal.png">
+<SubTexture name="Fatal UP0000" x="3045" y="911" width="723" height="434" frameX="-144" frameY="-299" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal UP0001" x="0" y="2107" width="712" height="493" frameX="-176" frameY="-256" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal UP0002" x="0" y="1479" width="631" height="628" frameX="-206" frameY="-205" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal UP0003" x="712" y="2107" width="712" height="493" frameX="-176" frameY="-256" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal UP0004" x="3045" y="1345" width="723" height="434" frameX="-144" frameY="-299" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal RIGHT0000" x="1424" y="2107" width="828" height="488" frameX="-39" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal RIGHT0001" x="1280" y="1479" width="800" height="597" frameX="-60" frameY="-256" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal RIGHT0002" x="759" y="0" width="629" height="710" frameX="-136" frameY="-257" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal RIGHT0003" x="1280" y="1479" width="800" height="597" frameX="-60" frameY="-256" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal RIGHT0004" x="1424" y="2107" width="828" height="488" frameX="-39" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal LEFT0000" x="2361" y="524" width="684" height="475" frameX="-212" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal LEFT0001" x="540" y="806" width="493" height="659" frameX="-352" frameY="-243" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal LEFT0002" x="0" y="0" width="393" height="806" frameX="-445" frameY="-169" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal LEFT0003" x="1033" y="806" width="493" height="659" frameX="-352" frameY="-243" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal LEFT0004" x="2361" y="524" width="684" height="475" frameX="-212" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal DOWN0000" x="631" y="1479" width="649" height="627" frameX="-56" frameY="-341" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal DOWN0001" x="1863" y="0" width="498" height="658" frameX="-126" frameY="-337" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal DOWN0002" x="393" y="0" width="366" height="721" frameX="-184" frameY="-264" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal DOWN0003" x="1388" y="0" width="475" height="685" frameX="-75" frameY="-300" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal DOWN0004" x="0" y="806" width="540" height="673" frameX="-10" frameY="-312" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0000" x="3045" y="456" width="723" height="455" frameX="-144" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0001" x="2252" y="2107" width="724" height="456" frameX="-150" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0002" x="2361" y="0" width="684" height="524" frameX="-170" frameY="-308" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0003" x="3045" y="0" width="724" height="456" frameX="-150" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0004" x="3045" y="456" width="723" height="455" frameX="-144" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0005" x="3045" y="456" width="723" height="455" frameX="-144" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0006" x="3045" y="456" width="723" height="455" frameX="-144" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0007" x="3045" y="456" width="723" height="455" frameX="-144" frameY="-277" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="Fatal IDLE0008" x="3045" y="456" width="723" height="455" frameX="-144" frameY="-277" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

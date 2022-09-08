@@ -1,0 +1,4 @@
+Changes the note skin and splash skin from this point on
+
+Value 1: Note texture, 	side (bf, dad, all)
+Value 2: Splash texture, 	offsetX, offsetY

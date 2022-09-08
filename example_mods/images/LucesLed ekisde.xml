@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fDanceTitle.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LucesLed ekisde0000" x="0" y="0" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0001" x="0" y="0" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0002" x="1283" y="0" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0003" x="0" y="722" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0004" x="1283" y="722" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0005" x="0" y="722" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0006" x="1283" y="0" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0007" x="0" y="0" width="1283" height="722"/>
+	<SubTexture name="LucesLed ekisde0008" x="0" y="0" width="1283" height="722"/>
+</TextureAtlas>

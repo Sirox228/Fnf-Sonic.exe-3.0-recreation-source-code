@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "2festbf_left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				4
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "2festbf_down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				70
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "2festbf_up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				2
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "2festbf_right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				248,
+				6
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "2festbf_leftmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				25
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "2festbf_downmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				59
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "2festbf_upmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				6
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "2festbf_rightmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "2festbf_idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/encore2festbf_assets",
+	"position": [
+		160,
+		420
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		81,
+		162,
+		193
+	],
+	"camera_position": [
+		120,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

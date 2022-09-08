@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				402,
+				10
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Big Fatal LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Big Fatal DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				294,
+				10
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Big Fatal UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-200,
+				-3
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Big Fatal RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				30,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Big Fatal IDLE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fatal/Big Fatal",
+	"position": [
+		-100,
+		-310
+	],
+	"healthicon": "dad",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		30,
+		-110
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

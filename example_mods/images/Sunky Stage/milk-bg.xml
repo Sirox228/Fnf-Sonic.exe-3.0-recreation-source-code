@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="milk-bg.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="milk bg0000" x="0" y="0" width="2088" height="1392"/>
+	<SubTexture name="milk bg0001" x="2088" y="0" width="2088" height="1392"/>
+	<SubTexture name="milk bg0002" x="4176" y="0" width="2088" height="1392"/>
+	<SubTexture name="milk bg0003" x="0" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0004" x="0" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0005" x="0" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0006" x="0" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0007" x="0" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0008" x="0" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0009" x="2088" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0010" x="4176" y="1392" width="2088" height="1392"/>
+	<SubTexture name="milk bg0011" x="0" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0012" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0013" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0014" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0015" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0016" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0017" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0018" x="2088" y="2784" width="2088" height="1392"/>
+	<SubTexture name="milk bg0019" x="2088" y="2784" width="2088" height="1392"/>
+</TextureAtlas>

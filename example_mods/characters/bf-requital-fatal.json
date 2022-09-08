@@ -1,0 +1,128 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"offsets": [
+				-5,
+				10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				-30,
+				0
+			],
+			"offsets": [
+				24,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				-30
+			],
+			"offsets": [
+				-25,
+				43
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				30
+			],
+			"offsets": [
+				18,
+				-59
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				30,
+				0
+			],
+			"offsets": [
+				-52,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"offsets": [
+				35,
+				-13
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "BF Pose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"offsets": [
+				69,
+				-26
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "BF Dodge",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BF_Requital",
+	"position": [
+		-630,
+		280
+	],
+	"healthicon": "bf-encore",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-200,
+		-90
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}
