@@ -32,6 +32,8 @@ typedef ExeMenuData =
 	charsizingenabled:Bool,
 	charsizex:Float,
 	charsizey:Float,
+        charscrollfactorx:Float,
+        charscrollfactory:Float,
 	charoverlapsmenuitems:Bool,
 	menuitemsx:Float,
 	menuitemsoffsety:Float,
@@ -125,6 +127,7 @@ class MainMenuState extends MusicBeatState
 		if (shit.charsizingenabled) {
 			menuChar.setGraphicSize(Std.int(shit.charx), Std.int(shit.chary));
 		}
+                menuChar.scrollFactor.set(shit.charscrollfactorx, shit.charscrollfactory);
 		if (!shit.charoverlapsmenuitems) {
 		    add(menuChar);
 		}
