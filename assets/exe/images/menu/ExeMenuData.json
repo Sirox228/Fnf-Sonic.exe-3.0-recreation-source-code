@@ -4,6 +4,8 @@
 	"charsizingenabled":false,
 	"charsizex":0,
 	"charsizey":0,
+        "charscrollfactorx":0,
+        "charscrollfactory":0,
 	"charoverlapsmenuitems":false,
 	"menuitemsx":640,
 	"menuitemsoffsety":0,
