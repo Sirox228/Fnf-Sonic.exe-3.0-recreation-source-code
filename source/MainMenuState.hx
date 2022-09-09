@@ -20,8 +20,26 @@ import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
+import sys.io.File;
+import haxe.Json;
 
 using StringTools;
+
+typedef ExeMenuData =
+{
+	charx:Float,
+	chary:Float,
+	charsizingenabled:Bool,
+	charsizex:Float,
+	charsizey:Float,
+	charoverlapsmenuitems:Bool,
+	menuitemsx:Float,
+	menuitemsoffsety:Float,
+	menuitemssizingenabled:Bool,
+	menuitemssizex:Float,
+	menuitemssizey:Float,
+	menuchar:String
+}
 
 class MainMenuState extends MusicBeatState
 {
@@ -31,6 +49,7 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
+	public var menuChar:Character = null;
 	
 	var optionShit:Array<String> = [
 		//'story_mode',
@@ -46,10 +65,14 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	
+	var shit:ExeMenuData;
 
 	override function create()
 	{
 		WeekData.loadTheFirstEnabledMod();
+		
+		shit = Json.parse(File.getContent(Paths.getPreloadPath('exe/images/menu/ExeMenuData.json')));
 
 		#if desktop
 		// Updating Discord Rich Presence
@@ -95,6 +118,16 @@ class MainMenuState extends MusicBeatState
 		add(magenta);
 		
 		// magenta.scrollFactor.set();
+		
+		var xshit:Int = shit.charx == 0 ? Std.int((FlxG.width / 4) * 3) : Std.int(shit.charx);
+		var yshit:Int = shit.chary == 0 ? Std.int(FlxG.height / 2) : Std.int(shit.chary);
+		menuChar = new Character(xshit, yshit, shit.menuchar);
+		if (shit.charsizingenabled) {
+			menuChar.setGraphicSize(Std.int(shit.charx), Std.int(shit.chary));
+		}
+		if (!shit.charoverlapsmenuitems) {
+		    add(menuChar);
+		}
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
@@ -107,7 +140,7 @@ class MainMenuState extends MusicBeatState
 		for (i in 0...optionShit.length)
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset);
+			var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset + shit.menuitemsoffsety);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
@@ -115,14 +148,21 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
+			var itemXShit:Int = shit.menuitemsx == 0 ? Std.int(FlxG.width / 4) : shit.menuitemsx;
+			menuItem.x = itemXShit;
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
-			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
+			if (shit.menuitemssizingenabled) {
+			    menuItem.setGraphicSize(Std.int(shit.menuitemssizex), Std.int(shit.menuitemssizey));
+			}
 			menuItem.updateHitbox();
+		}
+		
+		if (shit.charoverlapsmenuitems) {
+		    add(menuChar);
 		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
